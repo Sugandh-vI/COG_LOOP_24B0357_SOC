@@ -9,7 +9,7 @@
 | **Name** | Sugandh Kumar |
 | **Roll Number** | 24B0357 |
 | **Institute** | IIT Bombay |
-| **Program** | Cognition Loop Summer of Code 2026 |
+| **Program** | Cognition Loop - Seasons of Code 2026 |
 | **Repository** | [Sugandh-vI/COG_LOOP_24B0357_SOC](https://github.com/Sugandh-vI/COG_LOOP_24B0357_SOC) |
 
 </div>
