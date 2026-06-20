@@ -552,32 +552,6 @@ uv run python chat_agent.py           # Interactive chat (type 'quit' to exit)
 
 ---
 
-## Future Improvements
-
-The current implementation is a complete working system, but there are several directions I'd like to explore:
-
-| Idea | Description |
-|---|---|
-| **Vector memory** | Store past conversations in a vector database (e.g., ChromaDB) so the agent can recall relevant information from much older turns without filling the context window |
-| **Multi-agent systems** | Separate the "researcher" and "synthesiser" roles into distinct agents that communicate through a shared message queue |
-| **RAG pipelines** | Add a Retrieval-Augmented Generation layer so the agent can be pre-loaded with a private knowledge base (docs, PDFs) before a conversation starts |
-| **Structured tool outputs** | Use JSON schemas for tool return values, not just plain strings, so the model can reason more precisely about what a tool returned |
-| **Long-term memory** | Implement a memory summarisation loop — when the conversation history grows beyond N tokens, compress older turns into a summary and replace them |
-| **Autonomous workflows** | Extend `chat_agent.py` into a goal-directed system that keeps acting until a user-defined success condition is met, without waiting for human input between steps |
-| **Better error telemetry** | Log every tool call, its arguments, its result, and the model's reasoning into a structured trace file — invaluable for debugging agent failures |
-
----
-
-## Acknowledgements
-
-I want to thank the **Cognition Loop SOC mentors and organizers** for designing a curriculum that is genuinely well-thought-out. The week-by-week progression — starting with a single API call and building toward an autonomous agent — is exactly the right way to teach this material. Each week's tasks are small enough to be completable but large enough to expose real concepts.
-
-The debugging challenges I hit during Week 3 (the Groq serialisation bug, the DuckDuckGo bot detection, the YouTube selector failure) were frustrating in the moment but turned out to be the most valuable learning experiences of the project. Fighting through a real bug teaches you more about a system than any tutorial can.
-
-This project was completed as part of the **Cognition Loop Summer of Code 2026** program at IIT Bombay.
-
----
-
 <div align="center">
 
 *Built with curiosity, debugged with patience.*
