@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+week1_tasks.md
+week2_tasks.md
+WEEK3_TASKS.md
+
+# Virtual environments
+.venv
+
+# Environment / secrets — NEVER commit this
+.env
