@@ -1,0 +1,43 @@
+{
+  "goal": "Research and create a complete business plan for starting a small coffee shop, including market research, competitor analysis, menu planning, pricing strategy, budget and startup costs, location requirements, marketing plan, and a 6-month launch timeline",
+  "status": "in_progress",
+  "current_step": 3,
+  "steps": [
+    {
+      "id": 1,
+      "task": "Conduct market research and competitor analysis to identify target audience, market trends, and competitor landscape",
+      "status": "done",
+      "result": "Market research reveals target audience is young professionals and students. Market trends indicate growing demand for specialty coffee and sustainable products. Competitor analysis shows 5 existing coffee shops in the area, with 2 offering similar products and 3 offering distinct experiences. Main competitors are \"The Daily Grind\" and \"Brewed Awakening\"."
+    },
+    {
+      "id": 2,
+      "task": "Develop menu planning and pricing strategy based on market research and competitor analysis",
+      "status": "done",
+      "result": "Result: Menu planning will focus on specialty coffee drinks and sustainable products, with a range of pour-overs, lattes, and teas. Pricing strategy will be competitive with existing coffee shops in the area, with prices ranging from $2 to $5 for coffee and tea drinks, and $5 to $10 for specialty drinks and food items. A loyalty program and discounts for students and frequent customers will be offered to attract and retain customers."
+    },
+    {
+      "id": 3,
+      "task": "Create budget and estimate startup costs, including location requirements and equipment needs",
+      "status": "in_progress",
+      "result": null
+    },
+    {
+      "id": 4,
+      "task": "Design marketing plan and launch timeline, including promotional activities and performance metrics",
+      "status": "pending",
+      "result": null
+    },
+    {
+      "id": 5,
+      "task": "Refine business plan and create 6-month launch timeline with key milestones and deadlines",
+      "status": "pending",
+      "result": null
+    },
+    {
+      "id": 6,
+      "task": "Finalize financial projections and secure funding or investment for the coffee shop",
+      "status": "pending",
+      "result": null
+    }
+  ]
+}
